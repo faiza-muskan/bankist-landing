@@ -130,7 +130,7 @@ const revealSection = function (entries, observer) {
 
 const sectionObs = {
   root: null,
-  thershold: 0,
+  thershold: 0.5,
 };
 
 const sectionObserver = new IntersectionObserver(revealSection, sectionObs);
